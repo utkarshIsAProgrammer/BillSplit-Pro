@@ -221,26 +221,9 @@ function copyToClipboard() {
 }
 
 function shareResult() {
-	if (navigator.share) {
-		const total =
-			(parseFloat(document.getElementById("billAmount").value) || 0) +
-			(parseFloat(document.getElementById("taxAmount").value) || 0) +
-			(parseFloat(document.getElementById("tipAmount").value) || 0) +
-			(parseFloat(document.getElementById("serviceAmount").value) || 0);
-
-		navigator.share({
-			title: "BillSplit Pro Results",
-			text: `Check out our bill split: Total ${total.toFixed(
-				2
-			)} split among ${
-				document.getElementById("diners").value || 2
-			} people`,
-			url: window.location.href,
-		});
-	} else {
-		copyToClipboard();
-	}
+	showNotification("Share link feature coming soon! ⛓️‍💥");
 }
+
 
 function exportToPDF() {
 	showNotification("PDF export feature coming soon! 📄");
