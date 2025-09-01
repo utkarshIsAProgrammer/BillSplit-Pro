@@ -1,4 +1,4 @@
-# 🍽️ BillSplit Pro
+# 🎯 BillSplit Pro
 
 A simple yet powerful web app to split bills between friends, including tax, tip, and service charges - Beautifully with precision and style.
 
