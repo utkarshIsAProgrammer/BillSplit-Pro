@@ -28,4 +28,7 @@ A simple yet powerful web app to split bills between friends, including tax, tip
 
 ---
 
+⛓️‍💥 Live Link: 
+- https://billsplit-pro.vercel.app/
+
 @Utkarsh Yadav
